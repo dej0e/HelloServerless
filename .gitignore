@@ -56,6 +56,7 @@ out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+.idea_modules/*
 
 # JIRA plugin
 atlassian-ide-plugin.xml
@@ -71,6 +72,7 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+.idea/*
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
@@ -129,5 +131,11 @@ fabric.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+.gradle
+.gradle/*
+
+build/
+build/*
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java
